@@ -7,7 +7,6 @@ declare var go:any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit  {
-  displayedColumns = ['position', 'firstName', 'lastName', 'email'];
   title = 'angular-gojs-test works!';
   @ViewChild('myDiagramDiv') div;
 
